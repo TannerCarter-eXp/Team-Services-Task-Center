@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.75rem;
+    --background: #f9fafb;
+    --foreground: #1f2937;
+    --card: #ffffff;
+    --card-foreground: #111827;
+    --muted: #f3f4f6;
+    --muted-foreground: #6b7280;
+    --popover: #ffffff;
+    --popover-foreground: #111827;
+    --primary: #3b82f6;
+    --primary-foreground: #ffffff;
+    --secondary: #e5e7eb;
+    --secondary-foreground: #1f2937;
+    --accent: #dbeafe;
+    --accent-foreground: #1e3a8a;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --border: #e5e7eb;
+    --input: #e5e7eb;
+    --ring: #60a5fa;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased font-sans;
+  }
+
+  * {
+    @apply border-border;
+  }
+}
+
+/* Task Overview Card Styling */
+.summary-component--card {
+  @apply bg-white rounded-lg shadow-md;
+}
+
+.summary-component--card--header {
+  @apply font-semibold text-gray-800;
+}
+
+.summary-component--tasks-card--bar-graph-container {
+  @apply my-4;
+}
+
+.summary-component--detail-component--content--label--text {
+  @apply text-gray-500 font-medium;
+}
+
+.summary-component--detail-component--content--value {
+  @apply font-bold;
+}
+
+.summary-component--summary-button-component {
+  @apply w-full text-left transition-transform hover:transform hover:scale-105;
+}
