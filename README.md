@@ -30,21 +30,24 @@ A modern, responsive web application for managing real estate teams, agents, and
 ---
 
 ### 📋 Project Structure
+
+```
 client/
 ├── src/
-│ ├── components/ # Reusable UI components
-│ │ ├── ui/ # Base UI components
-│ │ ├── NavBar.jsx # Navigation component
-│ │ └── AIAssistant.jsx # AI assistant component
-│ ├── pages/ # Page components
-│ │ ├── Home.jsx # Dashboard/home page
-│ │ ├── TeamDetail.jsx # Team details page
-│ │ ├── AgentDetail.jsx # Agent profile page
-│ │ └── TaskDetail.jsx # Task details page
-│ ├── images/ # Static images
-│ ├── App.jsx # Main application component
-│ └── main.jsx # Entry point
-└── public/ # Static assets
+│   ├── components/         # Reusable UI components
+│   │   ├── ui/             # Base UI components
+│   │   ├── NavBar.jsx      # Navigation component
+│   │   └── AIAssistant.jsx # AI assistant component
+│   ├── pages/              # Page components
+│   │   ├── Home.jsx        # Dashboard/home page
+│   │   ├── TeamDetail.jsx  # Team details page
+│   │   ├── AgentDetail.jsx # Agent profile page
+│   │   └── TaskDetail.jsx  # Task details page
+│   ├── images/             # Static images
+│   ├── App.jsx             # Main application component
+│   └── main.jsx            # Entry point
+└── public/                 # Static assets
+```
 
 ### 🔧 Installation
 
